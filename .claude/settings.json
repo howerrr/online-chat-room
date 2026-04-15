@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"http://localhost:3000/api/socket/?EIO=4&transport=polling\" -w \"\\\\n%{http_code}\")",
+      "Bash(vercel --prod)"
+    ]
+  }
+}

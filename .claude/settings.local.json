@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(taskkill //F //PID 19544)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(start http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Read(//c/Users/pc/AppData/Local/Temp/claude/c--Users-pc-Documents-Coding-Frontend-Develop-online-chat-room/c04bc497-85d1-4b22-9c99-0e7fa480d4c7/tasks/**)",
+      "Bash(curl -s \"http://localhost:3000/api/socket/?EIO=4&transport=polling\")"
+    ]
+  }
+}
